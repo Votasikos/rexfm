@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YOU LOVE HITS - YOU♥MUSIC</title>
+<link rel="stylesheet" href="style.css">    
+<link rel="shortcut icon" href="images/icon-new.png"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+          integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.css"
+          integrity="sha512-jrLDXl9jUPe5DT19ukacvpX39XiErIBZxiaVMDFRe+OAKoBVYO126Dt7cvhMJ3Fja963lboD9DH+ev/2vbEnMw=="
+          crossorigin="anonymous"/>
+</head>
+<body style="background-attachment: fixed; background-position-x: 50%; background-position-y: 0; background-size: cover; background-image: url('images/bg_main.jpg');">
+    
+<a href="index">
+<img id="ost_image" class="mx-auto d-block"
+                                         style="max-height: 180px;" alt="album cover"
+                                         src="images/logo2.png"/>
+                                        </a>
+</div>
+<br>
+<div style="font-family:rfm_black;font-size: 240%;text-align: center">YOU♥HITS</div>
+<div style="font-family:rfm_light;font-size: 140%;text-align: center">Only hits!</div>
+</div>
+</div>
+</div>
+<br>
+<div id="player_div">
+
+    <div class="text-center my-3">
+        <div class="d-flex justify-content-center">
+            
+            <div class="col-sm-3">
+
+              
+                <hr class="mt-3"/>
+
+                <div id="player_title"></div>
+                <div>
+                </div>
+                <div>
+                    <audio autoplay; id="player" controls; style="--plyr-color-main: #f00;--plyr-control-icon-size: 25px">
+                        <source src="http://stream.laut.fm/radiooneu"
+                                type="audio/mp3"/>
+                    </audio>
+                </div>
+                <script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
+                <div id="api_lfm_current_song1_3" class="artist-text2">Loading...</div>
+                <script type="text/html" id="current_song_template1_3" charset="utf-8">
+                <%= "" + this.artist.name + "" %>
+                </script> 
+                <script type="text/javascript" charset="utf-8"> laut.fm.station('radiooneu') 
+                .current_song({container:'api_lfm_current_song1_3', template:'current_song_template1_3'}, true); </script>
+                </script>
+                <div id="api_lfm_current_song1_4" class="title-text2">Loading...</div>
+                <script type="text/html" id="current_song_template1_4" charset="utf-8">
+                <%= "" + this.title + "" %>
+                </script> 
+                <script type="text/javascript" charset="utf-8"> laut.fm.station('radiooneu') 
+                .current_song({container:'api_lfm_current_song1_4', template:'current_song_template1_4'}, true); </script>
+                </script>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>		
+<div style="font-family:rfm_black;font-size: 200%;text-align: center">SOCIAL</div>
+
+<p class="aligncenter">                                          
+    <a href="https://www.instagram.com/rexfm_official/" target="_blank">
+    <img src="images/ig.png" alt="IG" width="150" height="150">
+    <a href="https://www.facebook.com/rexfm.official" target="_blank">
+            <img src="images/fb.png" alt="FB" width="150" height="150">
+    </a>
+    </p>
+    </div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+	             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"
+        integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"
+        integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.polyfilled.min.js"
+        integrity="sha512-7kq7qBtasB6e1rth7fGAVQI6HvobtSHWKqIjsEr+21l2spvu8ZRXvRukXPTEPrExSDXpUHI5FH6xlgGZNNCgeQ=="
+        crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</body>
+</html>
